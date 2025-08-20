@@ -27,6 +27,6 @@ spec:
       name: prod-ssh-private-key
     imageSetRef:
        #quay.io/openshift-release-dev/ocp-release:4.13.17-multi
-      name: img4.13.17-multi-appsub
+      name: img4.18.19-multi-appsub
   pullSecretRef:
     name: prod-pull-secret
