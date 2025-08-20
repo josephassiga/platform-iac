@@ -1,7 +1,7 @@
 apiVersion: secrets.crossplane.io/v1alpha1
 kind: VaultConfig
 metadata:
-  name: vault
+  name: vault-config
 spec:
   server: https://vault.apps.${HUB_BASE_DOMAIN} 
   mountPath: infra/clusters/${CLUSTER_NAME}/crossplane-secrets/
